@@ -1,0 +1,31 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.like {
+  background-image: url("./thumbs-up-regular.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border: transparent;
+  background-color: transparent;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.main-content {
+  width: 800px;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-box {
+  margin-bottom: 50px;
+}
